@@ -20,7 +20,7 @@ enum tap_dance_codes {
   DANCE_5,
 };
 
-#define DUAL_FUNC_0 LT(13, KC_M)
+#define DUAL_FUNC_0 LT(12, KC_D)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_voyager(
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_PAUSE,       KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_PAGE_UP,     KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, 
     KC_NO,          KC_NO,          KC_DELETE,      LALT(KC_BSPC),  LALT(KC_DELETE),KC_NO,                                          LCTL(LSFT(KC_TAB)),LALT(KC_LEFT),  KC_UP,          LALT(KC_RIGHT), LCTL(KC_TAB),   KC_TRANSPARENT, 
     KC_NO,          KC_NO,          KC_MEDIA_PREV_TRACK,KC_MEDIA_PLAY_PAUSE,KC_MEDIA_NEXT_TRACK,KC_NO,                                          KC_HOME,        KC_LEFT,        KC_DOWN,        KC_RIGHT,       KC_END,         KC_TRANSPARENT, 
-    KC_NO,          KC_NO,          KC_AUDIO_VOL_DOWN,MT(MOD_LCTL, KC_AUDIO_MUTE),KC_AUDIO_VOL_UP,KC_NO,                                          KC_NO,          LGUI(KC_LBRC),  KC_PGDN,        LGUI(KC_RBRC),  KC_NO,          KC_TRANSPARENT, 
+    KC_LEFT_CTRL,   KC_NO,          KC_AUDIO_VOL_DOWN,MT(MOD_LCTL, KC_AUDIO_MUTE),KC_AUDIO_VOL_UP,KC_NO,                                          KC_NO,          LGUI(KC_LBRC),  KC_PGDN,        LGUI(KC_RBRC),  KC_NO,          KC_TRANSPARENT, 
                                                     KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT
   ),
   [3] = LAYOUT_voyager(
