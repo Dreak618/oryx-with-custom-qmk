@@ -26,7 +26,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     TD(DANCE_0),    KC_TRANSPARENT, KC_MEDIA_PREV_TRACK,KC_MEDIA_PLAY_PAUSE,KC_MEDIA_NEXT_TRACK,CW_TOGG,                                        KC_MINUS,       KC_AUDIO_VOL_DOWN,KC_AUDIO_MUTE,  KC_AUDIO_VOL_UP,KC_EQUAL,       TD(DANCE_2),    
     KC_TAB,         KC_Q,           KC_W,           KC_F,           KC_P,           KC_G,                                           KC_J,           KC_L,           KC_U,           KC_Y,           KC_SCLN,        KC_BSLS,        
     TD(DANCE_1),    KC_A,           KC_R,           KC_S,           KC_T,           KC_D,                                           KC_H,           KC_N,           KC_E,           KC_I,           KC_O,           KC_ENTER,       
-    KC_LEFT_GUI,    MT(MOD_LOPT, KC_Z),MT(MOD_LCTL, KC_X),KC_C,           KC_V,           KC_B,                                           KC_K,           KC_M,           KC_COMMA,       KC_DOT,         KC_SLASH,       KC_RIGHT_GUI,   
+    KC_LEFT_GUI,    MT(MOD_LALT, KC_Z),MT(MOD_LCTL, KC_X),KC_C,           KC_V,           KC_B,                                           KC_K,           KC_M,           KC_COMMA,       KC_DOT,         KC_SLASH,       KC_RIGHT_GUI,   
                                                     KC_LEFT_SHIFT,  LT(1, KC_SPACE),                                LT(2, KC_BSPC), QK_REPEAT_KEY
   ),
   [1] = LAYOUT_voyager(
